@@ -7,4 +7,7 @@ sleep 3
 git clone --recursive https://github.com/hyprwm/Hyprland
 cd Hyprland
 make -j4 all && sudo make install
-sudo pacman --noconfirm -S kitty alacritty sddm btop htop fastfetch neofetch dunst polkit-kde-agent xdg-desktop-portal-wlr xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper hypridle hyprlocks
+clear
+sudo pacman --noconfirm -S kitty alacritty sddm btop htop fastfetch neofetch dunst polkit-kde-agent xdg-desktop-portal-wlr xdg-desktop-portal-hyprland qt5-wayland qt6-wayland hyprpaper hypridle hyprlocks waybar rust 
+
+yay --noconfirm -S hyprpicker
