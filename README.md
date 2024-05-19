@@ -1,0 +1,2 @@
+# hypr
+Install Hyprland script
